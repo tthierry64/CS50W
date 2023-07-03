@@ -1,3 +1,16 @@
+body {
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    width: 100%;
+    height: 100%;
+
+}
+
 .navbar-google{
     list-style-type: none;
     display: flex;
@@ -72,51 +85,53 @@ a:active {
     color: #d93025;
     font-family: arial,sans-serif;
     font-size: 20px;
-    margin: 25px 35px;
+    margin: 2% 2%;
 }
 
 .separationLine {
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebee;
 }
 
 .p2-advanced {
     font-size: 20px;
     color: #333333;
-    margin-bottom: 20px;
-}
-
-.p3-advanced {
-    font-size: 14px;
-    vertical-align: middle;
+    margin-bottom: 2%;
+    justify-content: space-between;
 }
 
 .row-input {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 1%;
+    width: 90%;
 }
 
 .div-advanced {
-    margin: 50px;;
+    margin: 2%;
 }
 
-.left {
-    width: 200px;
+.p3-advanced {
+    font-size: 14px;
+    width: 35%;
+
 }
 
-.right {
-    width: 500px;
+.p3-advanced-description {
+    font-size: 14px;
+    width: 60%;
+    padding-left: 3%;
 }
 
 .btn-advanced-search {
     box-shadow: none;
     background-color: #4d90fe;
     border: 1px solid #3079ed;
-    height: 35px;
     color: #fff;
-    display: block;
-    position: relative;
-    top: 25px; left: 565px;
+    display: flex;
+    position: absolute;
+    right: 40%;
+    margin-top: 1%;
+
 }
 
